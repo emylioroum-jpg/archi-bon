@@ -1,0 +1,897 @@
+[
+  {
+    "id": "pissenlit",
+    "name": "Pissenlit",
+    "scientific": "Taraxacum officinale",
+    "category": "Plantes sauvages",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles et plante correctement identifiée",
+    "advice": "Une plante fourragère adaptée. Introduire progressivement si elle est nouvelle.",
+    "caution": "Récolter uniquement des plantes correctement identifiées, propres et non traitées.",
+    "sources": [
+      "RWAF – Safe Foraging Guide",
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "dent-de-lion",
+      "dandelion",
+      "taraxacum"
+    ]
+  },
+  {
+    "id": "plantain",
+    "name": "Plantain",
+    "scientific": "Plantago spp.",
+    "category": "Plantes sauvages",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Les plantains à feuilles larges ou lancéolées sont cités parmi les plantes de fourrage adaptées.",
+    "caution": "Identifier précisément la plante avant récolte.",
+    "sources": [
+      "RWAF – Safe Foraging Guide"
+    ],
+    "verified": true,
+    "synonyms": [
+      "plantain lancéolé",
+      "plantain majeur",
+      "plantago"
+    ]
+  },
+  {
+    "id": "basilic",
+    "name": "Basilic",
+    "scientific": "Ocimum basilicum",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Herbe adaptée en variété avec d'autres feuillages.",
+    "caution": "Introduire progressivement tout nouvel aliment.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs",
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "basil"
+    ]
+  },
+  {
+    "id": "menthe",
+    "name": "Menthe",
+    "scientific": "Mentha spp.",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Herbe adaptée et citée par les organismes de protection du lapin.",
+    "caution": "Identifier l'espèce et éviter les plantes traitées.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs",
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "mint",
+      "mentha"
+    ]
+  },
+  {
+    "id": "persil",
+    "name": "Persil",
+    "scientific": "Petroselinum crispum",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Peut faire partie d'une variété d'herbes et de verdure.",
+    "caution": "Le persil est plus riche en calcium que certaines autres herbes : varier les végétaux.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "parsley"
+    ]
+  },
+  {
+    "id": "romaine",
+    "name": "Laitue romaine",
+    "scientific": "Lactuca sativa",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Feuille verte recommandée dans une alimentation variée.",
+    "caution": "Bien laver et introduire progressivement.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "laitue romaine",
+      "romaine"
+    ]
+  },
+  {
+    "id": "fanes-carotte",
+    "name": "Fanes de carotte",
+    "scientific": "Daucus carota",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Fanes",
+    "advice": "Les fanes sont préférables à la partie orange de la carotte dans une alimentation de verdure variée.",
+    "caution": "Laver soigneusement et éviter les végétaux traités.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "fanes de carotte",
+      "carrot tops"
+    ]
+  },
+  {
+    "id": "fenouil",
+    "name": "Fenouil",
+    "scientific": "Foeniculum vulgare",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Parties adaptées du légume",
+    "advice": "Répertorié parmi les légumes adaptés.",
+    "caution": "Varier les végétaux et introduire progressivement.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "fennel"
+    ]
+  },
+  {
+    "id": "concombre",
+    "name": "Concombre",
+    "scientific": "Cucumis sativus",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Fruit",
+    "advice": "Répertorié parmi les légumes adaptés.",
+    "caution": "Ne remplace pas le foin ou l'herbe comme base de l'alimentation.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "cucumber"
+    ]
+  },
+  {
+    "id": "courgette",
+    "name": "Courgette",
+    "scientific": "Cucurbita pepo",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Fruit ; fleurs",
+    "advice": "La courgette, y compris les fleurs, figure parmi les végétaux adaptés.",
+    "caution": "Ne pas donner les feuilles selon la source consultée.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "courgette",
+      "zucchini"
+    ]
+  },
+  {
+    "id": "brocoli",
+    "name": "Brocoli",
+    "scientific": "Brassica oleracea var. italica",
+    "category": "Légumes / verdure",
+    "status": "moderate",
+    "statusLabel": "🟡 SÛR — MODÉRATION",
+    "parts": "Parties comestibles adaptées",
+    "advice": "Peut être proposé dans une variété de verdure.",
+    "caution": "De grandes quantités de brassicacées peuvent provoquer un inconfort digestif chez certains lapins.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs",
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "broccoli"
+    ]
+  },
+  {
+    "id": "kale",
+    "name": "Kale / chou kale",
+    "scientific": "Brassica oleracea var. sabellica",
+    "category": "Légumes / verdure",
+    "status": "moderate",
+    "statusLabel": "🟡 SÛR — MODÉRATION",
+    "parts": "Feuilles",
+    "advice": "Peut entrer dans une rotation de feuillages variés.",
+    "caution": "Varier les végétaux et surveiller la tolérance digestive.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs",
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "chou kale",
+      "kale"
+    ]
+  },
+  {
+    "id": "epinards",
+    "name": "Épinards",
+    "scientific": "Spinacia oleracea",
+    "category": "Légumes / verdure",
+    "status": "moderate",
+    "statusLabel": "🟡 SÛR — MODÉRATION",
+    "parts": "Feuilles",
+    "advice": "Peut être donné en petite quantité dans une alimentation variée.",
+    "caution": "Les épinards sont riches en oxalates : la RWAF recommande la modération.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "épinards",
+      "spinach"
+    ]
+  },
+  {
+    "id": "carotte",
+    "name": "Carotte",
+    "scientific": "Daucus carota",
+    "category": "Friandises",
+    "status": "treat",
+    "statusLabel": "🟠 FRIANDISE OCCASIONNELLE",
+    "parts": "Racine",
+    "advice": "À réserver à de petites quantités occasionnelles en raison de sa teneur en sucres.",
+    "caution": "Les fanes sont une option plus adaptée comme verdure.",
+    "sources": [
+      "RSPCA – Healthy diet",
+      "RWAF – Greens, Veg and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "carrot"
+    ]
+  },
+  {
+    "id": "pomme",
+    "name": "Pomme",
+    "scientific": "Malus domestica",
+    "category": "Fruits",
+    "status": "treat",
+    "statusLabel": "🟠 FRIANDISE OCCASIONNELLE",
+    "parts": "Chair ; éviter les pépins",
+    "advice": "Petite quantité occasionnelle.",
+    "caution": "Les fruits sont sucrés et ne doivent pas devenir une part importante de la ration.",
+    "sources": [
+      "RSPCA – Healthy diet",
+      "RWAF – Greens, Veg and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "apple"
+    ]
+  },
+  {
+    "id": "banane",
+    "name": "Banane",
+    "scientific": "Musa spp.",
+    "category": "Fruits",
+    "status": "treat",
+    "statusLabel": "🟠 FRIANDISE OCCASIONNELLE",
+    "parts": "Chair",
+    "advice": "À considérer comme une friandise en très petite quantité.",
+    "caution": "Fruit sucré : occasionnel seulement.",
+    "sources": [
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "banana"
+    ]
+  },
+  {
+    "id": "fraise",
+    "name": "Fraise",
+    "scientific": "Fragaria × ananassa",
+    "category": "Fruits",
+    "status": "treat",
+    "statusLabel": "🟠 FRIANDISE OCCASIONNELLE",
+    "parts": "Fruit",
+    "advice": "Petite quantité occasionnelle.",
+    "caution": "Laver et ne pas remplacer la verdure ou le foin par des fruits.",
+    "sources": [
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "strawberry",
+      "strawberries"
+    ]
+  },
+  {
+    "id": "rhubarbe",
+    "name": "Feuilles de rhubarbe",
+    "scientific": "Rheum rhabarbarum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Feuilles",
+    "advice": "Ne pas donner.",
+    "caution": "La rhubarbe fait partie des plantes/aliments signalés comme dangereux pour les lapins ; les feuilles sont explicitement listées par Merck.",
+    "sources": [
+      "RSPCA – Common rabbit poisons",
+      "Merck Veterinary Manual – Harmful plants and foods"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "lierre",
+    "name": "Lierre",
+    "scientific": "Hedera helix",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Feuilles et baies",
+    "advice": "Ne pas donner.",
+    "caution": "Le lierre est cité parmi les poisons courants pour les lapins.",
+    "sources": [
+      "RSPCA – Common rabbit poisons"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "digitale",
+    "name": "Digitale",
+    "scientific": "Digitalis spp.",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Toute la plante à éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Plante potentiellement très dangereuse. En cas d'ingestion, vétérinaire rapidement.",
+    "sources": [
+      "RSPCA – Healthy diet : foxgloves among poisonous plants"
+    ],
+    "verified": true,
+    "synonyms": [
+      "foxglove",
+      "digitalis"
+    ]
+  },
+  {
+    "id": "muguet",
+    "name": "Muguet",
+    "scientific": "Convallaria majalis",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Le muguet (lily of the valley) est listé parmi les plantes toxiques dans le tableau Merck.",
+    "sources": [
+      "Merck Veterinary Manual – Harmful plants and foods"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "tulipe",
+    "name": "Tulipe",
+    "scientific": "Tulipa spp.",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RSPCA cite les tulipes parmi les plantes toxiques pour les lapins.",
+    "sources": [
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "tulip"
+    ]
+  },
+  {
+    "id": "pomme-terre",
+    "name": "Pomme de terre",
+    "scientific": "Solanum tuberosum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Tubercule et feuillage à éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RWAF déconseille les pommes de terre et leur feuillage.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "pomme de terre",
+      "potato"
+    ]
+  },
+  {
+    "id": "tomate-feuilles",
+    "name": "Feuilles et tiges de tomate",
+    "scientific": "Solanum lycopersicum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Feuilles et tiges",
+    "advice": "Ne pas donner.",
+    "caution": "La RWAF déconseille les feuilles et tiges de tomate.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "feuilles de tomate",
+      "tomato leaves"
+    ]
+  },
+  {
+    "id": "oignon",
+    "name": "Oignon",
+    "scientific": "Allium cepa",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Déconseillé par la RWAF.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "onion"
+    ]
+  },
+  {
+    "id": "ail",
+    "name": "Ail",
+    "scientific": "Allium sativum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Déconseillé par la RWAF.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "garlic"
+    ]
+  },
+  {
+    "id": "ciboulette",
+    "name": "Ciboulette",
+    "scientific": "Allium schoenoprasum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Déconseillée par la RWAF.",
+    "sources": [
+      "RWAF – Recommended Vegetables and Herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "chives"
+    ]
+  },
+  {
+    "id": "avocat",
+    "name": "Avocat",
+    "scientific": "Persea americana",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Fruit, feuilles, tiges et graines",
+    "advice": "Ne pas donner.",
+    "caution": "Merck indique que les lapins sont sensibles à la toxicité de l’avocat.",
+    "sources": [
+      "Merck Veterinary Manual – Food hazards",
+      "RSPCA – Common rabbit poisons"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "chocolat",
+    "name": "Chocolat",
+    "scientific": "Theobroma cacao",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "Tous les produits au chocolat à éviter",
+    "advice": "Ne pas donner.",
+    "caution": "Le chocolat est signalé comme poison pour les lapins par la RSPCA et figure parmi les aliments toxiques du tableau Merck.",
+    "sources": [
+      "RSPCA – Common rabbit poisons",
+      "Merck Veterinary Manual – Harmful plants and foods"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "herbe-tondue",
+    "name": "Herbe tondue",
+    "scientific": "—",
+    "category": "À éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 À NE PAS DONNER",
+    "parts": "Tontes de gazon",
+    "advice": "Ne jamais donner les tontes de tondeuse.",
+    "caution": "La fermentation rapide des tontes peut être très dangereuse pour les lapins.",
+    "sources": [
+      "RSPCA – Healthy diet",
+      "RWAF – Greens, Veg and Herbs"
+    ],
+    "verified": true,
+    "synonyms": []
+  },
+  {
+    "id": "houx",
+    "name": "Houx",
+    "scientific": "Ilex aquifolium",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RSPCA cite le houx parmi les plantes toxiques.",
+    "sources": [
+      "RSPCA – Healthy diet"
+    ],
+    "verified": true,
+    "synonyms": [
+      "holly"
+    ]
+  },
+  {
+    "id": "clematite",
+    "name": "Clématite",
+    "scientific": "Clematis spp.",
+    "category": "Toxiques / à vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification botanique et vétérinaire.",
+    "caution": "Fiche volontairement non classée comme sûre faute de validation suffisante dans cette version.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": [
+      "clématite",
+      "clematis"
+    ]
+  },
+  {
+    "id": "rhododendron",
+    "name": "Rhododendron",
+    "scientific": "Rhododendron spp.",
+    "category": "Toxiques / à vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification.",
+    "caution": "Fiche conservatrice en attendant une validation spécifique lapin.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": [
+      "rhododendron",
+      "azalée",
+      "azalea"
+    ]
+  },
+  {
+    "id": "pervenche-grande",
+    "name": "Grande pervenche",
+    "scientific": "Vinca major",
+    "category": "À vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification.",
+    "caution": "Identité et sécurité à confirmer.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": []
+  },
+  {
+    "id": "pervenche-petite",
+    "name": "Petite pervenche",
+    "scientific": "Vinca minor",
+    "category": "À vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification.",
+    "caution": "Fiche volontairement prudente.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": []
+  },
+  {
+    "id": "consoude",
+    "name": "Consoude",
+    "scientific": "Symphytum spp.",
+    "category": "À vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification.",
+    "caution": "Besoin d'une validation spécifique concernant le lapin et les parties de plante.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": []
+  },
+  {
+    "id": "grande-berce",
+    "name": "Grande berce / berce",
+    "scientific": "Heracleum spp.",
+    "category": "À vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant identification précise.",
+    "caution": "Certaines espèces de berce peuvent être problématiques ; identification exacte indispensable.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": []
+  },
+  {
+    "id": "jacinthe",
+    "name": "Jacinthe",
+    "scientific": "Hyacinthus spp.",
+    "category": "À vérifier",
+    "status": "verify",
+    "statusLabel": "⚪ À VÉRIFIER",
+    "parts": "Non établi ici",
+    "advice": "Ne pas donner avant vérification.",
+    "caution": "Fiche conservatrice en attendant validation.",
+    "sources": [
+      "Validation requise"
+    ],
+    "verified": false,
+    "synonyms": [
+      "jacinthe",
+      "hyacinth"
+    ]
+  },
+  {
+    "id": "coriandre",
+    "name": "Coriandre",
+    "scientific": "Coriandrum sativum",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Herbe citée par la RWAF parmi les ajouts adaptés.",
+    "caution": "Introduire progressivement et varier les végétaux.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "cilantro",
+      "coriander"
+    ]
+  },
+  {
+    "id": "aneth",
+    "name": "Aneth",
+    "scientific": "Anethum graveolens",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Herbe citée par la RWAF parmi les ajouts adaptés.",
+    "caution": "Introduire progressivement et varier les végétaux.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "dill"
+    ]
+  },
+  {
+    "id": "thym",
+    "name": "Thym",
+    "scientific": "Thymus spp.",
+    "category": "Herbes",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Parties aériennes adaptées",
+    "advice": "Herbe citée par la RWAF parmi les ajouts adaptés.",
+    "caution": "Identifier correctement la plante et varier les végétaux.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "thyme"
+    ]
+  },
+  {
+    "id": "roquette",
+    "name": "Roquette",
+    "scientific": "Eruca sativa",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles",
+    "advice": "Verdure feuillue citée par la RWAF.",
+    "caution": "Laver et introduire progressivement.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "rocket",
+      "rucola"
+    ]
+  },
+  {
+    "id": "cresson",
+    "name": "Cresson",
+    "scientific": "Nasturtium officinale",
+    "category": "Légumes / verdure",
+    "status": "safe",
+    "statusLabel": "🟢 SÛR / TRÈS BON",
+    "parts": "Feuilles et parties tendres",
+    "advice": "Verdure feuillue citée par la RWAF.",
+    "caution": "Laver soigneusement et varier les végétaux.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "watercress"
+    ]
+  },
+  {
+    "id": "chou-fleur",
+    "name": "Chou-fleur",
+    "scientific": "Brassica oleracea var. botrytis",
+    "category": "Légumes / verdure",
+    "status": "moderate",
+    "statusLabel": "🟡 SÛR — MODÉRATION",
+    "parts": "Parties adaptées",
+    "advice": "Peut être proposé dans une variété de brassicacées.",
+    "caution": "Les brassicacées peuvent provoquer de l’inconfort digestif chez certains lapins ; varier et introduire progressivement.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "cauliflower"
+    ]
+  },
+  {
+    "id": "chou",
+    "name": "Chou",
+    "scientific": "Brassica oleracea",
+    "category": "Légumes / verdure",
+    "status": "moderate",
+    "statusLabel": "🟡 SÛR — MODÉRATION",
+    "parts": "Feuilles adaptées",
+    "advice": "Peut entrer dans une rotation variée de verdure.",
+    "caution": "Les brassicacées sont à varier et à introduire progressivement.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "cabbage"
+    ]
+  },
+  {
+    "id": "poivron",
+    "name": "Poivron",
+    "scientific": "Capsicum annuum",
+    "category": "Friandises",
+    "status": "treat",
+    "statusLabel": "🟠 FRIANDISE OCCASIONNELLE",
+    "parts": "Chair mûre ; retirer pédoncule, graines et partie blanche",
+    "advice": "À proposer en petite quantité et occasionnellement.",
+    "caution": "La RWAF recommande de petites quantités ; le poivron vert est privilégié.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "bell pepper",
+      "pepper"
+    ]
+  },
+  {
+    "id": "aubergine",
+    "name": "Aubergine",
+    "scientific": "Solanum melongena",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RWAF la classe parmi les végétaux à éviter pour les lapins.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "eggplant"
+    ]
+  },
+  {
+    "id": "piment",
+    "name": "Piment",
+    "scientific": "Capsicum spp.",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RWAF classe les piments parmi les végétaux à éviter.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "chilli",
+      "chili"
+    ]
+  },
+  {
+    "id": "echalote",
+    "name": "Échalote",
+    "scientific": "Allium cepa var. aggregatum",
+    "category": "Toxiques / à éviter",
+    "status": "toxic",
+    "statusLabel": "🔴 TOXIQUE / À NE PAS DONNER",
+    "parts": "À éviter",
+    "advice": "Ne pas donner.",
+    "caution": "La RWAF classe les échalotes parmi les végétaux à éviter.",
+    "sources": [
+      "RWAF – Recommended vegetables and herbs"
+    ],
+    "verified": true,
+    "synonyms": [
+      "shallot"
+    ]
+  }
+]

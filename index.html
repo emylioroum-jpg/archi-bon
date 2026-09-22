@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2f7d4a">
+<meta name="description" content="Archi-bon : guide prudent des plantes et aliments pour lapins.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+<title>Archi-bon</title>
+</head>
+<body>
+<header>
+  <div class="brand"><div class="logo">🌿</div><div><strong>Archi-bon</strong><small>par Émylio Rouméjon</small></div></div>
+  <button id="install" class="secondary" type="button">📲 Installer</button>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">Guide lapin · sécurité d'abord</p>
+    <h1>Est-ce que je peux donner ça à mon lapin ?</h1>
+    <p>Recherche une plante, une herbe, un légume, un fruit ou un aliment. Si la base ne suffit pas, Archi-bon peut lancer une vérification assistée par IA avec des sources institutionnelles. <b>Une réponse IA ne remplace jamais une validation vétérinaire.</b></p>
+    <div class="search"><span>⌕</span><input id="search" autocomplete="off" placeholder="Ex. pissenlit, menthe, Taraxacum…"><button id="clear" aria-label="Effacer">×</button></div>
+    <div class="search-hint"><span>💡</span> Accents, noms scientifiques et petites fautes sont tolérés.</div>
+  </section>
+
+  <nav class="quick-actions" aria-label="Navigation principale">
+    <button class="quick active" data-view="database">🔎 Base Archi-bon</button>
+    <button class="quick" data-view="ai">🤖 Vérifier avec l’IA</button>
+    <button class="quick" data-view="add">➕ Ajouter</button>
+    <button class="quick" data-view="favorites">⭐ Favoris</button>
+    <button class="quick" data-view="sources">📚 Sources</button>
+  </nav>
+
+  <section id="databaseView" class="view">
+    <div class="notice">⚠️ <b>Important :</b> cette application informe et ne remplace pas un vétérinaire. En cas d'ingestion potentiellement toxique ou de symptômes inhabituels, contacte rapidement un vétérinaire.</div>
+    <section class="app-status" aria-live="polite"><span id="connectionDot">●</span> <span id="connectionText">Vérification…</span></section>
+    <section>
+      <div class="section-title"><h2>Catégories</h2><button id="reset" class="link">Tout afficher</button></div>
+      <div id="categories" class="chips"></div>
+    </section>
+    <section>
+      <div class="section-title"><h2 id="resultsTitle">Plantes et aliments</h2><span id="count"></span></div>
+      <div id="results" class="grid"></div>
+    </section>
+  </section>
+
+  <section id="aiView" class="view hidden panel">
+    <div class="panel-head"><span class="ai-icon">🤖</span><div><h2>Archi-bon IA</h2><p>Une aide à la recherche, jamais une preuve automatique de sécurité.</p></div></div>
+    <div class="ai-rules"><b>Règle :</b> si l'identification ou les preuves sont insuffisantes, le résultat reste <b>⚪ À VÉRIFIER</b>.</div>
+    <div id="chat" class="chat" aria-live="polite"><div class="bubble bot">🐰 Donne-moi le nom de la plante. Je vais rechercher des mentions dans des sources institutionnelles disponibles et te montrer ce qui a été trouvé.</div></div>
+    <form id="aiForm" class="chat-form"><input id="aiInput" placeholder="Ex. trèfle rouge" autocomplete="off" maxlength="120"><button class="primary">Vérifier</button></form>
+    <div class="history-box"><div class="section-title inline"><h3>Historique local</h3><button id="clearHistory" class="link danger">Effacer</button></div><div id="history"></div></div>
+  </section>
+
+  <section id="addView" class="view hidden panel">
+    <div class="panel-head"><span class="ai-icon">➕</span><div><h2>Ajouter une plante</h2><p>Les ajouts restent locaux à cet appareil et sont toujours classés <b>⚪ À VÉRIFIER</b>.</p></div></div>
+    <form id="addForm" class="form-grid">
+      <label>Nom de la plante<input name="name" required maxlength="100"></label>
+      <label>Nom scientifique (si connu)<input name="scientific" maxlength="140"></label>
+      <label>Synonymes / autres noms<input name="synonyms" maxlength="220"></label>
+      <label>Parties concernées<textarea name="parts" rows="3"></textarea></label>
+      <label>Conseil / informations<textarea name="advice" rows="4"></textarea></label>
+      <label>Précautions<textarea name="caution" rows="4"></textarea></label>
+      <label>Sources<textarea name="sources" rows="3" placeholder="Une source par ligne"></textarea></label>
+      <button class="primary" type="submit">Enregistrer comme ⚪ À vérifier</button>
+    </form>
+    <div class="export-box"><b>📦 Mes ajouts</b><p id="localCount">0 fiche locale</p><button id="exportData" class="secondary" type="button">Exporter mes ajouts</button><button id="clearData" class="link danger" type="button">Effacer mes ajouts</button></div>
+  </section>
+
+  <section id="favoritesView" class="view hidden panel">
+    <div class="panel-head"><span class="ai-icon">⭐</span><div><h2>Mes favoris</h2><p>Les favoris sont enregistrés uniquement sur cet appareil.</p></div></div>
+    <div id="favorites" class="grid compact-grid"></div>
+  </section>
+
+  <section id="sourcesView" class="view hidden panel">
+    <div class="panel-head"><span class="ai-icon">📚</span><div><h2>Sources et méthode</h2><p>Archi-bon privilégie les sources de protection animale et les références vétérinaires.</p></div></div>
+    <div class="source-list" id="sourceList"></div>
+    <div class="method"><h3>Comment Archi-bon décide ?</h3><ol><li>La base locale est prioritaire pour les fiches déjà vérifiées.</li><li>L'absence d'une plante dans la base ne signifie jamais qu'elle est sûre.</li><li>L'IA ne peut proposer un statut que si des éléments suffisamment directs ont été trouvés dans les sources consultées.</li><li>Une identification ambiguë ou une preuve insuffisante reste <b>⚪ À VÉRIFIER</b>.</li><li>Les sources sont affichées pour que tu puisses les consulter directement.</li></ol></div>
+  </section>
+</main>
+<footer><p><b>Archi-bon</b> · Créé par Émylio Rouméjon</p><p><a href="mailto:emylioroum@gmail.com">emylioroum@gmail.com</a></p><p class="muted">L'identification incertaine n'est jamais une preuve de sécurité. En cas de doute, ne donne pas la plante et demande conseil à un vétérinaire.</p></footer>
+
+<dialog id="installHelp"><button class="close" id="closeInstall" aria-label="Fermer">×</button><div><h2>Installer Archi-bon</h2><p id="installMessage"></p><div class="detail-grid"><div><b>Android / Chrome</b><p>Utilise le bouton d'installation lorsqu'il est proposé.</p></div><div><b>iPhone / iPad</b><p>Safari → Partager → « Sur l'écran d'accueil » → Ajouter.</p></div><div><b>Ordinateur</b><p>Utilise l'icône d'installation du navigateur si elle apparaît.</p></div></div></div></dialog>
+<dialog id="detail"><button class="close" id="close" aria-label="Fermer">×</button><div id="detailBody"></div></dialog>
+<script src="js/app.js"></script>
+</body>
+</html>
