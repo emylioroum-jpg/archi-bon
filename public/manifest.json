@@ -1,0 +1,24 @@
+{
+  "name": "Archi-bon — Guide lapin",
+  "short_name": "Archi-bon",
+  "description": "Guide prudent pour vérifier les plantes et aliments destinés aux lapins.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f8f3",
+  "theme_color": "#2f7d4a",
+  "lang": "fr-FR",
+  "categories": [
+    "education",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
